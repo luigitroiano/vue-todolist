@@ -8,7 +8,6 @@ let toDoList = new Vue ({
   el : "#root",
   data : {
     logo : "./assets/img/logo.png",
-    newTask : " ",
     tasks : ["Studia VueJS","Ripassa CSS","Allenati"],
   },
   methods : {
