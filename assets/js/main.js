@@ -19,14 +19,13 @@ let toDoList = new Vue ({
       } else {
         alert("Inserire almeno 4 caratteri");
         this.newTask = "";
-      }
-      
+      } 
     },
     remove(index){
       this.tasks.splice(index, 1);
     },
     clearAll(){
-      this.tasks = "";
+      this.tasks = [];
     }
   },
   mounted(){
